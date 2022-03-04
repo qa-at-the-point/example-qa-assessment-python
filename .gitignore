@@ -1,3 +1,8 @@
+poetry.lock
+test_results
+assets
+report.html
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
