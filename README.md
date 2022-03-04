@@ -8,6 +8,24 @@ Find the assessment instructions in this file: [quality-engineer-test.md](./qual
 
 > Give this a try yourself before looking at the solution in this repo!
 
+### A Solution
+
+To look at the solution I came up with, look for these files:
+
+- Test Plan - [veriff.feature](./veriff.feature) in a Gherkin-style format
+- UI Tests - [test_ui.py](./tests/test_ui.py)
+- API Tests - [test_api.py](./tests//test_api.py)
+- Veriff Code abstraction (pages and api) - [veriff.py](./veriff.py)
+
+Besides that, my solution uses:
+
+- `Python` as my language
+- `pytest` as my test framework
+- `Pylenium` to automate the browser
+- `requests` to automate the API requests
+
+> ⏰ I gave myself 2 hours to do this
+
 ## Setup
 
 - 🐍 **_Python v3.8_** or higher is required
