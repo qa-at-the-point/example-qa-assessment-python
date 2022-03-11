@@ -16,6 +16,7 @@ To look at the solution I came up with, look for these files:
 - UI Tests - [test_ui.py](./tests/test_ui.py)
 - API Tests - [test_api.py](./tests//test_api.py)
 - Veriff Code abstraction (pages and api) - [veriff.py](./veriff.py)
+- Bugs found - [BUGS.md](./BUGS.md)
 
 Besides that, my solution uses:
 
@@ -35,7 +36,7 @@ Besides that, my solution uses:
 1. Clone the repo
 
    ```bash
-   git clone https://github.com/qa-at-the-point/api-testing-python.git
+   git clone https://github.com/qa-at-the-point/example-qa-assessment.git
    ```
 
 2. Install packages with Poetry
