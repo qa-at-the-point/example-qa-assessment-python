@@ -10,7 +10,7 @@ def veriff(py: Pylenium) -> VeriffUI:
 
 VALID_EXAMPLES = [
     ("Carlos Kidman", "English", "United States of America", "Driver's license", "InContext"),
-    ("张 Zhāng", "Chinese", "China", "Passport", "Redirect"),
+    ("张 Zhāng", "中文（简体)", "China", "Passport", "Redirect"),
     # ... add more examples including what we've documented in veriff.feature
 ]
 
