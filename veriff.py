@@ -48,7 +48,9 @@ class VeriffUI:
 
     def enter_full_name(self, full_name: str) -> Element:
         fullname_field = self.py.get("[name='name']")
-        return fullname_field.clear().type(full_name)
+        # Clear the full name field
+        self.py.execute_script("arguments[0].value = ''", fullname_field.webelement)
+        return fullname_field.type(full_name)
 
     def select_language(self, language: str) -> Element:
         """The dropdown is actually a button element that opens a list under script elements.

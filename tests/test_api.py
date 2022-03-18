@@ -31,7 +31,9 @@ LOCALE_TESTS = [
 
 
 @pytest.mark.parametrize("language, expected", LOCALE_TESTS)
+@pytest.mark.skip(reason="Ask team how to get dynamic ID for locales")
 def test_get_locales(language, expected):
-    response = requests.get(f"https://magic.saas-3.veriff.me/static/locales/{language}-1qv6wh069s.json")
+    dynamic_id = ""
+    response = requests.get(f"https://magic.saas-3.veriff.me/static/locales/{language}-{dynamic_id}.json")
     json = response.json()
     assert json.get("vrff.PASSPORT") == expected
